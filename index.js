@@ -15,7 +15,6 @@ inquirer
     qr_svg.pipe(fs.createWriteStream("qr_image.png"));
 
     fs.writeFile("URL.txt", url, (err) => {
-      // Corrected to use 'url' instead of 'URL'
       if (err) throw err;
       console.log("File has been saved!");
     });
