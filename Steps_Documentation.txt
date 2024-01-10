@@ -1,0 +1,18 @@
+---- First Install Nodejs in your Device.
+
+---- use npm init -y in your terminal to initialise node.
+
+---- then a package.json file will be created.
+
+---- copy , paste or download index.js and package.json files.
+
+---- In this project we have used 2 nodejs libraries inquirer and qr-image generater.
+
+---- inquirer is a library of nodejs when we passed a question it use user feedback for anything
+     for more information refer this link "https://www.npmjs.com/package/inquirer"
+
+---- qr-image is another library this takes input from user and generates qr images 
+     for more information refer this link "https://www.npmjs.com/package/qr-image"
+
+---- we used inquirer to enter data and used that information to give input to qr-image 
+     and we saved that iamge in .png file and given input in .txt file.
